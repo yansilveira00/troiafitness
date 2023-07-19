@@ -1,0 +1,197 @@
+body,a, h1,h2,h3,h4,p,ul,li{
+	margin: 0px;
+	padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+body{
+	padding-top: 90px;
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    width: 100%;
+    height: 60%;
+}
+nav{
+    background-color: rgb(255, 255, 255);
+    color: white
+}
+
+nav img{
+    width: 150px;
+    height: 150px;
+}
+
+a{
+    color: #F9B60E;
+}
+
+button.planos_botao{
+    background-color: #F9B60E;
+    color: white;
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+button.botao_envio{
+    background-color: #F9B60E;
+    color: white;
+    border-color: #F9B60E;
+}
+
+button:hover{
+    background-color: #F9B60E;
+    cursor: pointer;
+}
+
+.btn-danger{
+    background-color: #F9B60E;
+    color: white;
+    border-color: #F9B60E;
+}
+
+img{
+	max-width: 100%;
+	display: block;
+	
+}
+
+.sizing{
+    padding-top: -100px;
+}
+
+.carousel-item {
+    height: 600px;
+}
+  
+.introducao1{
+    width: 100%;
+    background:
+          linear-gradient(
+            rgba(0, 0, 0, 0.4), 
+            rgba(0, 0, 0, 0.4)
+          ),
+          url(../img/barra-de-levantamento.jpg);
+    background-size: cover;
+    height: 500px;
+    opacity: 1;
+    text-align: center;
+}
+
+.introducao2{
+    width: 100%;
+    background:
+          linear-gradient(
+            rgba(0, 0, 0, 0.4), 
+            rgba(0, 0, 0, 0.4)
+          ),
+          url(../img/academia.jpg);
+    background-size: cover;
+    height: 500px;
+    text-align: left;
+  }
+
+  .introducao3{
+    width: 100%;
+    background:
+          linear-gradient(
+            rgba(0, 0, 0, 0.4), 
+            rgba(0, 0, 0, 0.4)
+          ),
+          url(../img/mulher-fazendo-ioga.jpg);
+    background-size: cover;
+    height: 500px;
+    
+    text-align: center;
+  }
+
+  .treino_func{
+    width: 140px;
+    height: 140px;
+    text-align: center;
+    margin: 0 auto;
+    transition: width 0.5s, height 0.5s;
+  }
+
+  .treino_func:hover{
+    width: 200px;
+    height: 200px;
+  }
+
+  .texto{
+    font-size: 0.9em;
+  }
+
+  #quote{
+    background:
+       linear-gradient(
+         rgba(0, 0, 0, 0.3), 
+         rgba(0, 0, 0, 0.3)
+       ),
+        url('../img/academia1.png') center center;
+    background-size: cover;
+    min-height: 350px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media(min-width: 760px){
+    .quote-block{
+        vertical-align: middle;
+        padding-top: 70px;
+    }
+}
+
+@media(max-width: 760px){
+    .quote-block{
+        vertical-align: middle;
+        padding-top: 30px;
+    }
+}
+
+.palavra{
+    font-size: 1.3em;
+    vertical-align: middle;
+    top: 50%;
+    margin: 0 auto;
+}
+
+.plano_titulo{
+    color: black;
+}
+
+ul{
+    list-style: none;
+}
+
+#quote-segundo{
+    background:
+       linear-gradient(
+         rgba(0, 0, 0, 0.3), 
+         rgba(0, 0, 0, 0.3)
+       ),
+        url('../img/treino-esteira.jpg') center center;
+        min-height: 350px;
+        max-width: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.observacao{
+    font-size: 0.8em;
+}
+
+footer{
+    color: black;
+    height: 20%;
+    width: 100%;
+    text-align: center;
+}
