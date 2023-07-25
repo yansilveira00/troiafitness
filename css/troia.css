@@ -1,4 +1,4 @@
-body,a, h1,h2,h3,h4,p,ul,li{
+a, h1,h2,h3,h4,p,ul,li{
 	margin: 0px;
 	padding: 0px;
     font-family: 'Open Sans', sans-serif;
@@ -6,14 +6,15 @@ body,a, h1,h2,h3,h4,p,ul,li{
 }
 
 body{
-	padding-top: 90px;
-    width: 100%;
-    height: 100%;
+    background: white;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
 }
 
 main {
-    width: 100%;
-    height: 60%;
+    padding-top: 70px;
 }
 nav{
     background-color: rgb(255, 255, 255);
@@ -187,6 +188,11 @@ ul{
 
 .observacao{
     font-size: 0.8em;
+}
+
+.container{
+    width: 100%;
+    height: 600px;
 }
 
 footer{
